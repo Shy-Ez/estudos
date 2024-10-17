@@ -31,3 +31,10 @@ Amido: Reserva energética dos vegetais.<br>
 ## Função das enzimas
 Enzimas são biocatalizadores, ou seja, aceleram a ocorrêcia de reações quimicas.
 
+## Sobre a membrana plasmática
+Componentes:
+- Proteinas
+- Glicidios
+- Fosfolipidios
+- Colesterol
+
