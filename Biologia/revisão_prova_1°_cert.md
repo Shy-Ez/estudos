@@ -38,9 +38,9 @@ Componentes:
 - Fosfolipidios
 - Colesterol
 <br>
-**Nome do modelo da membrana plasmatica:** Modelo do mosaico fluido.<br>
-**Permeabilidade seletiva:** A permeabilidade seletiva é uma propriedade da membrana plasmatica que consiste em controlar a entrada é saida de substância das celulas, atraves do tamanho, polaridade ou composição quimica.<br>
-**Diferença entre transporte passivo e ativo:**<br>
+Nome do modelo da membrana plasmatica: Modelo do mosaico fluido.<br>
+Permeabilidade seletiva: A permeabilidade seletiva é uma propriedade da membrana plasmatica que consiste em controlar a entrada é saida de substância das celulas, atraves do tamanho, polaridade ou composição quimica.<br>
+Diferença entre transporte passivo e ativo:<br>
 - Transporte ativo: gasta energia.
 - Transporte passivo: não gasta energia.
 
