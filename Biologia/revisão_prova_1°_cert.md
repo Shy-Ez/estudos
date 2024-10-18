@@ -46,8 +46,15 @@ Transporte passivo: não gasta energia.<br><br>
 Nome dos processos:<br>
 Difusão simples(trans. passivo), Difusão facílitada(trans. passivo) e bomba de transporte ativo(trans. ativo).<br>
 
-##DNA e RNA
+## DNA e RNA
 - DNA: contem duas fitas, açúcar formador e desoxirribose, base nitrogenada(ATCG).
 - RNA: contem uma fita, açucar formador e ribose, base nitrogenada(AUCG).
+
+## Sobre o colesterol
+Colesterol no corpo humano:<br>
+ele e um componente importante da membrana plasmatica, das membranas das organelas celulares e da bainha de mielina dos neuronios.<br><br>
+HDL e LDL:<br>
+- HDL: E o "bom colesterol", remove o excesso de colesterol dos tecidos e o leva ao figado para ser eliminado.
+- LDL: E o "mal colesterol" ele transporta colesterol do figado e intestino para as celulas.
 
 
