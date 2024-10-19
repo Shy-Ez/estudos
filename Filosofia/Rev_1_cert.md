@@ -3,7 +3,7 @@ Atividade reflexiva a priori.
 Em filosofia a priori é usada para descrever conhecimento ou justificativas que são independentes da experiência. em outras palavras, não importa o que você viveu o conhecimento é independente disso(quando estavamos usando a priori).
 # Argumentos   
 Conjunto de proposições(A proposições são divididas em premissas e conclusões).
-## Dica: Toda conclusão tem [logo,entao,por conseguinte,portanto,...,assim]. 
+- Dica: Toda conclusão tem [logo,entao,por conseguinte,portanto,...,assim]. 
 Nem toda proposição é uma premissa,e toda premissa é uma proposição.
 premissa é algo que pode ser verificado se é verdadeiro ou falso.
 # Falácias
@@ -19,7 +19,7 @@ não importa o que seja se traz prazer faça.
 
 
 # Epistomologia
-###Conhecimento perceptivo<br>
+### Conhecimento perceptivo<br>
 - Realismo direto: Há conhecimento perceptivo direto do mundo, Ou seja o conhecimento é real pois está no mundo.
 Quando olhamos para um objeto, estamos percebendo o objeto tal como ele é, sem intermediários ou representações mentais.
 Em: Quando vemos uma árvore, estamos percebendo a árvore em si, e não uma imagem mental ou uma ideia da árvore.<br>
