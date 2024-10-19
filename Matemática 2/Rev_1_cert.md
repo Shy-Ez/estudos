@@ -4,5 +4,5 @@ A expressão geral de um ângulo é uma fórmula que te dá todos os valores pos
 Se você tem um ângulo ∅, a expressão geral seria:
 ∅ + 360° • k ou ∅ + 2π • k, onde k é qualquer número inteiro ( pode ser positivo, negativo ou zero).
 Por exemplo, se o ângulo ∅ é 30°, a expressão geral seria: ∅= 30° + 360° • k, onde k pode ser 0, 1, -1, 2, -2, etc. lembrando que k é o número de voltas e o 360 é a volta completa.
-# a fórmula da circunferência de um sirculo é 
+# a fórmula da circunferência de um circulo é 
 L =2×pi×r/180⁰
