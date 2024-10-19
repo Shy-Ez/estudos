@@ -37,11 +37,13 @@ Exemplo:
 
   Este conteúdo explica as figuras de linguagem hipérbole e eufemismo, com exemplos que mostram o exagero e a suavização de expressões em   diferentes contextos.
 
-### Ironia
-
 ---
 
+### Ironia
+
 É autoexplicativa, se resume a querer dizer o contario do que se diz. Na fala, pode aparecer, por exemplo, o tom da voz como marca irônia, e na escrita, o uso de aspas(entre outros recursos).
+
+---
 
 ### Antitese
 Consiste em fazer uma oposição entre duas coisas, com caracteristicas contrarias.
