@@ -28,4 +28,7 @@ Em: Quando vemos uma árvore, estamos percebendo a árvore em si, e não uma ima
 
 Ilusões: São percepções distorcidas de um objeto ou situação real.
 Em: Quando uma vara parece quebrada quando submersa na água, estamos tendo uma ilusão visual, pois a vara em si não está realmente quebrada.<br>
+
 Alucinações: São percepções que ocorrem sem a presença de um estímulo externo. Uma pessoa que ouve vozes ou vê coisas que não estão realmente lá está tendo uma alucinação.
+- teoria dos dados dos sentidos
+  A teoria dos dados dos sentidos explica que percebemos o mundo por meio de dados sensoriais que são interpretados pela mente. Essa abordagem destaca a natureza mediada da percepção, sugere que as impressões sensoriais podem não corresponder diretamente à realidade e provoca discussões sobre a confiabilidade do conhecimento que obtemos por meio dos sentidos.
