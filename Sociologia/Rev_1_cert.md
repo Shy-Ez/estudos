@@ -20,5 +20,7 @@ solidariedade mecânica -> sociedades simples. Pouca divisão de trabalho. Ex: s
 Anomia: Processo de desintegração da sociedade. Enfraquecimento de laços morais. Pode ocorrer em momentos de crise.<br><br>
 **Fatos sociais** -> Formas de agir que independendem de nós. São exteriores aos individuos possui uma coerção(ato ou efeito de reprimir algo).<br>
 Crime -> Violação a uma norma social. sociedade exigira punição.<br><br>
+## Marx Weber
+- desenvolveu a **teoria social** sobre o funcionamento da sociedade capitalista. Através de uma perspectiva critica.
 **Marx:** -> Luta de classes. Visão crítica no capitalismo.<br>
 **Mais-Valia-** a propiciação por parte do burguês daquilo que é produzido pelo trabalhador.
