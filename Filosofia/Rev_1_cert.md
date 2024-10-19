@@ -19,7 +19,7 @@ não importa o que seja se traz prazer faça.
 
 
 # Epistomologia
-.Conhecimento perceptivo<br>
+###Conhecimento perceptivo<br>
 - Realismo direto: Há conhecimento perceptivo direto do mundo, Ou seja o conhecimento é real pois está no mundo.
 Quando olhamos para um objeto, estamos percebendo o objeto tal como ele é, sem intermediários ou representações mentais.
 Em: Quando vemos uma árvore, estamos percebendo a árvore em si, e não uma imagem mental ou uma ideia da árvore.<br>
