@@ -50,6 +50,20 @@ Consiste em fazer uma oposição entre duas coisas, com caracteristicas contrari
 
 ---
 
+### Paradoxo
+É a contradiçao, isto é, duas caracteristicas contrarias ou excludentes associadas  ao mesmo elemento.
+
+---
+
+### Metoníma
+É a troca de palavras ou expressões por outras(como na metáfora), mas considerando que uma coisa tenha a ver com a outra.<br>
+**Obs:** *Na metáfora, essa relação semântica não precisa existir.*
+
+---
+
+### Personificação ou prosopopeia
+Trata objetos ou animais  como humanos.
+
 
 ## Elementos narrativos
 - **Enredo:** É a sequencia de acontecimentos que compõem a materia.
