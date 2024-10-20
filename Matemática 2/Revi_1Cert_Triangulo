@@ -1,0 +1,85 @@
+Claro! Vamos refazer os exemplos e expressar os resultados em **frações**. 
+
+---
+
+## **Exemplo 1: Altura de um Prédio**
+
+Você está a 30 metros de um prédio e observa o topo dele sob um ângulo de **30°**. Qual é a altura do prédio? 
+
+### **Resolução:**
+Usamos a fórmula da tangente:
+\[
+\tan(30^\circ) = \frac{\text{altura}}{\text{distância}}
+\]
+Sabemos que \( \tan(30^\circ) = \frac{\sqrt{3}}{3} \). Assim:
+\[
+\frac{\sqrt{3}}{3} = \frac{h}{30}
+\]
+Multiplicamos ambos os lados por 30:
+\[
+h = 30 \cdot \frac{\sqrt{3}}{3} = 10 \sqrt{3} \, \text{m}
+\]
+
+Portanto, a **altura do prédio** é:
+\[
+h = 10 \sqrt{3} \, \text{m}
+\]
+
+---
+
+## **Exemplo 2: Altura de um Avião**
+
+Um avião sobe em linha reta formando um ângulo de **30°** com o solo e percorre 8 km. Qual é a altura que ele atinge?
+
+### **Resolução:**
+Usamos a fórmula do seno:
+\[
+\sin(30^\circ) = \frac{\text{altura}}{\text{hipotenusa}}
+\]
+Sabemos que \( \sin(30^\circ) = \frac{1}{2} \). Assim:
+\[
+\frac{1}{2} = \frac{h}{8}
+\]
+Multiplicamos ambos os lados por 8:
+\[
+h = 8 \cdot \frac{1}{2} = 4 \, \text{km}
+\]
+
+Portanto, a **altura do avião** é:
+\[
+h = 4 \, \text{km}
+\]
+
+---
+
+## **Exemplo 3: Escada Encostada em uma Parede**
+
+Uma escada de 10 metros forma um ângulo de **60°** com o solo. Qual é a altura alcançada na parede?
+
+### **Resolução:**
+Usamos a fórmula do seno:
+\[
+\sin(60^\circ) = \frac{h}{10}
+\]
+Sabemos que \( \sin(60^\circ) = \frac{\sqrt{3}}{2} \). Assim:
+\[
+\frac{\sqrt{3}}{2} = \frac{h}{10}
+\]
+Multiplicamos ambos os lados por 10:
+\[
+h = 10 \cdot \frac{\sqrt{3}}{2} = 5 \sqrt{3} \, \text{m}
+\]
+
+Portanto, a **altura alcançada** é:
+\[
+h = 5 \sqrt{3} \, \text{m}
+\]
+
+---
+
+## **Resumindo os Resultados em Frações**  
+1. **Altura do prédio**: \( 10 \sqrt{3} \, \text{m} \)  
+2. **Altura do avião**: \( 4 \, \text{km} \)  
+3. **Altura alcançada pela escada**: \( 5 \sqrt{3} \, \text{m} \)  
+
+Se precisar de mais exemplos ou ajuda com outro exercício do PDF, é só falar!
