@@ -1,85 +1,105 @@
-Claro! Vamos refazer os exemplos e expressar os resultados em **frações**. 
+Entendido! Vou organizar o conteúdo em formato mais direto, pronto para **copiar e colar** no Word ou Google Docs, sem códigos complicados.
 
 ---
 
-## **Exemplo 1: Altura de um Prédio**
+# **Trigonometria no Triângulo Retângulo**
 
-Você está a 30 metros de um prédio e observa o topo dele sob um ângulo de **30°**. Qual é a altura do prédio? 
-
-### **Resolução:**
-Usamos a fórmula da tangente:
-\[
-\tan(30^\circ) = \frac{\text{altura}}{\text{distância}}
-\]
-Sabemos que \( \tan(30^\circ) = \frac{\sqrt{3}}{3} \). Assim:
-\[
-\frac{\sqrt{3}}{3} = \frac{h}{30}
-\]
-Multiplicamos ambos os lados por 30:
-\[
-h = 30 \cdot \frac{\sqrt{3}}{3} = 10 \sqrt{3} \, \text{m}
-\]
-
-Portanto, a **altura do prédio** é:
-\[
-h = 10 \sqrt{3} \, \text{m}
-\]
+## 1. O que é um Triângulo Retângulo?  
+É um triângulo que possui um ângulo de 90°. Os lados importantes são:  
+- **Hipotenusa**: Maior lado, oposto ao ângulo reto.  
+- **Cateto oposto**: Lado oposto ao ângulo que estamos analisando.  
+- **Cateto adjacente**: Lado que está ao lado do ângulo analisado, sem ser a hipotenusa.  
 
 ---
 
-## **Exemplo 2: Altura de um Avião**
+## 2. Razões Trigonométricas  
+As razões trigonométricas relacionam os ângulos com os lados do triângulo retângulo:  
 
-Um avião sobe em linha reta formando um ângulo de **30°** com o solo e percorre 8 km. Qual é a altura que ele atinge?
+- **Seno (sen)**:  
+  sen(α) = cateto oposto / hipotenusa  
 
-### **Resolução:**
-Usamos a fórmula do seno:
-\[
-\sin(30^\circ) = \frac{\text{altura}}{\text{hipotenusa}}
-\]
-Sabemos que \( \sin(30^\circ) = \frac{1}{2} \). Assim:
-\[
-\frac{1}{2} = \frac{h}{8}
-\]
-Multiplicamos ambos os lados por 8:
-\[
-h = 8 \cdot \frac{1}{2} = 4 \, \text{km}
-\]
+- **Cosseno (cos)**:  
+  cos(α) = cateto adjacente / hipotenusa  
 
-Portanto, a **altura do avião** é:
-\[
-h = 4 \, \text{km}
-\]
+- **Tangente (tg)**:  
+  tg(α) = cateto oposto / cateto adjacente  
 
 ---
 
-## **Exemplo 3: Escada Encostada em uma Parede**
+## 3. Ângulos Notáveis e Valores Comuns  
 
-Uma escada de 10 metros forma um ângulo de **60°** com o solo. Qual é a altura alcançada na parede?
-
-### **Resolução:**
-Usamos a fórmula do seno:
-\[
-\sin(60^\circ) = \frac{h}{10}
-\]
-Sabemos que \( \sin(60^\circ) = \frac{\sqrt{3}}{2} \). Assim:
-\[
-\frac{\sqrt{3}}{2} = \frac{h}{10}
-\]
-Multiplicamos ambos os lados por 10:
-\[
-h = 10 \cdot \frac{\sqrt{3}}{2} = 5 \sqrt{3} \, \text{m}
-\]
-
-Portanto, a **altura alcançada** é:
-\[
-h = 5 \sqrt{3} \, \text{m}
-\]
+| Ângulo | Seno (sen) | Cosseno (cos) | Tangente (tg) |
+|--------|------------|---------------|---------------|
+| 30°    | 1/2        | √3/2          | √3/3          |
+| 45°    | √2/2       | √2/2          | 1             |
+| 60°    | √3/2       | 1/2           | √3            |
 
 ---
 
-## **Resumindo os Resultados em Frações**  
-1. **Altura do prédio**: \( 10 \sqrt{3} \, \text{m} \)  
-2. **Altura do avião**: \( 4 \, \text{km} \)  
-3. **Altura alcançada pela escada**: \( 5 \sqrt{3} \, \text{m} \)  
+## 4. Teorema de Pitágoras  
+O teorema de Pitágoras relaciona os lados do triângulo retângulo:  
 
-Se precisar de mais exemplos ou ajuda com outro exercício do PDF, é só falar!
+**Fórmula:**  
+hipotenusa² = cateto oposto² + cateto adjacente²  
+
+---
+
+## 5. Exemplos Práticos  
+
+### Exemplo 1: Altura de um Prédio  
+Você está a 30 metros de um prédio e vê o topo sob um ângulo de 30°. Qual é a altura do prédio?  
+
+**Fórmula:**  
+tg(30°) = altura / 30  
+
+Sabendo que tg(30°) = √3/3:  
+altura = 30 × (√3 / 3) = 10√3 metros  
+
+**Resposta:** A altura do prédio é 10√3 metros.  
+
+---
+
+### Exemplo 2: Altura de um Avião  
+Um avião sobe em linha reta formando um ângulo de 30° com o solo e percorre 8 km. Qual é a altura que ele atinge?  
+
+**Fórmula:**  
+sen(30°) = altura / 8  
+
+Sabendo que sen(30°) = 1/2:  
+altura = 8 × (1/2) = 4 km  
+
+**Resposta:** A altura do avião é 4 km.  
+
+---
+
+### Exemplo 3: Escada Encostada em uma Parede  
+Uma escada de 10 metros forma um ângulo de 60° com o solo. Qual é a altura alcançada na parede?  
+
+**Fórmula:**  
+sen(60°) = altura / 10  
+
+Sabendo que sen(60°) = √3/2:  
+altura = 10 × (√3 / 2) = 5√3 metros  
+
+**Resposta:** A altura alcançada é 5√3 metros.  
+
+---
+
+## 6. Resumo dos Resultados  
+
+1. **Altura do prédio**: 10√3 metros  
+2. **Altura do avião**: 4 km  
+3. **Altura da escada na parede**: 5√3 metros  
+
+---
+
+## 7. Como Resolver Exercícios de Trigonometria  
+
+1. **Identifique** o ângulo e os lados relevantes (cateto oposto, cateto adjacente e hipotenusa).  
+2. **Escolha** a razão trigonométrica correta (seno, cosseno ou tangente).  
+3. **Substitua** os valores na fórmula correspondente.  
+4. **Resolva** a equação para encontrar o valor solicitado.  
+
+---
+
+Agora, este conteúdo está pronto para **copiar e colar** em qualquer editor de texto. Se precisar de mais alguma coisa, é só avisar!
