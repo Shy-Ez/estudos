@@ -1,144 +1,144 @@
  # SIMPLE PRESENT(presente simples)
 
-- HABITS(hábitos)
-EM:
-  SHE'S SO(ela é tão)
-  BEAUTIFUL(lindo(a))
-  AND I TELL(e eu digo)
-  HER EVERY(ela cada)
+- HABITS(hábitos)<br>
+EM:<br>
+  SHE'S SO(ela é tão)<br>
+  BEAUTIFUL(lindo(a))<br>
+  AND I TELL(e eu digo)<br>
+  HER EVERY(ela cada)<br>
   
-  DAY!(dia)
-- ROUTINES(rotinas)
-EM:
-  I TAKE THE(eu pego o)
-  BUS TO(ônibus para)
-  SCHOOL(escola)
-  EVERY DAY(diariamente).
-- FACTS(fatos)
-EM:
-  THE EARTH(a terra)
-  REVOLVES(gira)
-  AROUND THE(ao redor do)
-  SUN(sol).
-- COMMOM SENSE(zsenso comum)
-EM:
-  FLAMENGO IS(flamengo é)
-  THE BEST(o melhor)
-  TEAM IN THE(time do)
+  DAY!(dia)<br>
+- ROUTINES(rotinas)<br>
+EM:<br>
+  I TAKE THE(eu pego o)<br>
+  BUS TO(ônibus para)<br>
+  SCHOOL(escola)<br>
+  EVERY DAY(diariamente).<br>
+- FACTS(fatos)<br>
+EM:<br>
+  THE EARTH(a terra)<br>
+  REVOLVES(gira)<br>
+  AROUND THE(ao redor do)<br>
+  SUN(sol).<br>
+- COMMOM SENSE(zsenso comum)<br>
+EM:<br>
+  FLAMENGO IS(flamengo é)<br>
+  THE BEST(o melhor)<br>
+  TEAM IN THE(time do)<br>
   
-  WORLD(mundo).
-- PERMANENT STATES(estados permanentes)
-EM:
-  water boils(água ferve)
-  at 100°(a 100°)
-  celsius(celsius).
-- TIMETABLES(horários)
-MY FLIGHT(meu voo)
-LEAVES(sai()dependendo do contesto pode significar outra coisa,Ex:folhas)
-TOMORROW(amanhã)
-AT 9 A.M.(ás 9h)
-# SIMPLE PENSENT -> VERB TO BE
-- affirmative(Afirmativa(o))
+  WORLD(mundo).<br>
+- PERMANENT STATES(estados permanentes)<br>
+EM:<br>
+  water boils(água ferve)<br>
+  at 100°(a 100°)<br>
+  celsius(celsius).<br>
+- TIMETABLES(horários)<br>
+MY FLIGHT(meu voo)<br>
+LEAVES(sai()dependendo do contesto pode significar outra coisa,Ex:folhas)<br>
+TOMORROW(amanhã)<br>
+AT 9 A.M.(ás 9h)<br>
+# SIMPLE PENSENT -> VERB TO BE<br>
+- affirmative(Afirmativa(o))<br>
 
-I AM(Eu sou)
-YOU ARE(Você é)
-HE IS(Ele é)
-SHE IS(Ela é)
-IT IS(Isso é)
-WE ARE(Nós somos)
-YOU ARE(Você é)
-THEY ARE(Eles são)
+I AM(Eu sou)<br>
+YOU ARE(Você é)<br>
+HE IS(Ele é)<br>
+SHE IS(Ela é)<br>
+IT IS(Isso é)<br>
+WE ARE(Nós somos)<br>
+YOU ARE(Você é)<br>
+THEY ARE(Eles são)<br>
 
-- negative(Negativa(o))
+- negative(Negativa(o))<br>
 
-I AM NOT(Eu não sou)
-YOU AREN'T(Você não está)
-HE ISN'T(Ele não é)
-SHE ISN'T(Ela não é)
-IT ISN'T(Não é)
-WE AREN'T(Nós não estamos)
-YOU AREN'T(você não está)
-THEY AREN'T(eles não são)
+I AM NOT(Eu não sou)<br>
+YOU AREN'T(Você não está)<br>
+HE ISN'T(Ele não é)<br>
+SHE ISN'T(Ela não é)<br>
+IT ISN'T(Não é)<br>
+WE AREN'T(Nós não estamos)<br>
+YOU AREN'T(você não está)<br>
+THEY AREN'T(eles não são)<br>
 
-- interrogative(interrogativa(o))
+- interrogative(interrogativa(o))<br>
 
-AM 1?(Eu sou)
-ARE YOU?(Você é)
-IS HE?(Ele é)
-IS SHE?(Ela é)
-IS IT?(é isso)
-ARE WE?(Somos nós)
-ARE YOU?(Você é)
-ARE THEY?(Eles são)
+AM 1?(Eu sou)<br>
+ARE YOU?(Você é)<br>
+IS HE?(Ele é)<br>
+IS SHE?(Ela é)<br>
+IS IT?(é isso)<br>
+ARE WE?(Somos nós)<br>
+ARE YOU?(Você é)<br>
+ARE THEY?(Eles são)<br>
+<br>
+ISN'T SHE LOVELY?(Não é ela adorável?)<br>
+ISN'T SHE WONDERFUL?(Não é ela maravilhosa?)<br>
+ISN'T SHE PRECIOUS?(Não é ela presiosa?)<br>
+LESS THAN ONE MINUTE OLD!(Com menos de um minuto de vida!)<br>
+<br>
+(STEVIE WONDER)<br>
+<br>
+WE'RE ALL IN THIS(Estamos todos nisso)<br>
+TOGETHER(junto)<br>
+ONCE WE KNOW(Uma vez que sabemos)<br>
+THAT WE ARE(Que nós somos)<br>
+WE'RE ALL STARS(Todos nós somos estrelas)<br>
+AND WE SEE THAT(E vemos isso)<br>
+<br>
+(HSM)=(high school musical)<br>
+# SIMPLE PRESENT - OTHER VERBS (Outros verbos)<br>
+<br>
+- Affirmative<br>
+<br>
+I WORK(Eu trabalho)<br>
+YOU WORK(Você trabalha)<br>
+HE WORKS(Ele trabalha)<br>
+SHE WORKS(Ela trabalha)<br>
+IT WORKS(Isso trabalha)<br>
+WE WORK(Nós trabalhamos)<br>
+YOU WORK(vocês trabalham)<br>
+THEY WORK(Eles/elas trabalham)<br>
+<br>
+- Negative<br>
+<br>
+I DON'T WORK(Eu não trabalho)<br>
+YOU DON'T WORK(Você não trabalha)<br>
+HE DOESN'T WORK(Ele não trabalha)<br>
+SHE DOESN'T WORK(Ela não trabalha)<br>
+IT DOESN'T WORK(Isso não trabalha)<br>
+WE DON'T WORK(Nós não trabalhamos)<br>
+YOU DON'T WORK(vocês trabalham)<br>
+THEY DON'T WORK(Eles/elas não trabalham)<br>
+<br>
+- interrogative<br>
 
-ISN'T SHE LOVELY?(Não é ela adorável?)
-ISN'T SHE WONDERFUL?(Não é ela maravilhosa?)
-ISN'T SHE PRECIOUS?(Não é ela presiosa?)
-LESS THAN ONE MINUTE OLD!(Com menos de um minuto de vida!)
-
-(STEVIE WONDER)
-
-WE'RE ALL IN THIS(Estamos todos nisso)
-TOGETHER(junto)
-ONCE WE KNOW(Uma vez que sabemos)
-THAT WE ARE(Que nós somos)
-WE'RE ALL STARS(Todos nós somos estrelas)
-AND WE SEE THAT(E vemos isso)
-
-(HSM)=(high school musical)
-# SIMPLE PRESENT - OTHER VERBS (Outros verbos)
-
-- Affirmativ
-
-I WORK(Eu trabalho)
-YOU WORK(Você trabalha)
-HE WORKS(Ele trabalha)
-SHE WORKS(Ela trabalha)
-IT WORKS(Isso trabalha)
-WE WORK(Nós trabalhamos)
-YOU WORK(vocês trabalham)
-THEY WORK(Eles/elas trabalham)
-
-- Negative
-
-I DON'T WORK(Eu não trabalho)
-YOU DON'T WORK(Você não trabalha)
-HE DOESN'T WORK(Ele não trabalha)
-SHE DOESN'T WORK(Ela não trabalha)
-IT DOESN'T WORK(Isso não trabalha)
-WE DON'T WORK(Nós não trabalhamos)
-YOU DON'T WORK(vocês trabalham)
-THEY DON'T WORK(Eles/elas não trabalham)
-
-- interrogative
-
-DO I WORK?(Eu trabalho?)
-DO YOU WORK?(Você trabalha?)
-DOES HE WORK?(Ele trabalha?)
-DOES SHE WORK?(Ela trabalha?)
-DOES IT WORK?(Isso trabalha?)
-DO WE WORK?(Nós trabalhamos)
-DO YOU WORK?(Vocês trabalham?)
-DO THEY WORK?(Eles/elas trabalham?)
-# 3RD PERSON SINGULAR()
-### Rule 1
-we just add -s to most of verrbs
-Ex: works, speaks, writes, dances, talks, walks
-- Tradução:
-### Regra 1
-Apenas adicionamos -s à maioria dos verbos
-Ex: trabalha, fala, escreve, dança, fala, anda.
-### Rule 2 
-Verbs ending in -s, -ch, -sh,-x,  -o we add -es
-Ex: kisses, reaches, washes, fixes, goes.
-- Tradução:
-### Regra 2 
-Verbos terminados em -s, -ch, -sh, -x, -o adicionamos -es
-Ex: beija, alcança, lava, conserta, vai.
-### Rule 3
-Verbs ending in consonant+y we remove "y" and add —ies
-Ex: studies, worries, cries.
-- tradução:
-### Regra 3
-verbos terminados em consoante + y removemos "y" e adicionamos —ies
+DO I WORK?(Eu trabalho?)<br>
+DO YOU WORK?(Você trabalha?)<br>
+DOES HE WORK?(Ele trabalha?)<br>
+DOES SHE WORK?(Ela trabalha?)<br>
+DOES IT WORK?(Isso trabalha?)<br>
+DO WE WORK?(Nós trabalhamos)<br>
+DO YOU WORK?(Vocês trabalham?)<br>
+DO THEY WORK?(Eles/elas trabalham?)<br>
+# 3RD PERSON SINGULAR()<br>
+### Rule 1<br>
+we just add -s to most of verrbs<br>
+Ex: works, speaks, writes, dances, talks, walks<br>
+- Tradução:<br>
+### Regra 1<br>
+Apenas adicionamos -s à maioria dos verbos<br>
+Ex: trabalha, fala, escreve, dança, fala, anda.<br>
+### Rule 2 <br>
+Verbs ending in -s, -ch, -sh,-x,  -o we add -es.<br>
+Ex: kisses, reaches, washes, fixes, goes.<br>
+- Tradução:<br>
+### Regra 2 <br>
+Verbos terminados em -s, -ch, -sh, -x, -o adicionamos -es.<br>
+Ex: beija, alcança, lava, conserta, vai.<br>
+### Rule 3<br>
+Verbs ending in consonant+y we remove "y" and add —ies.<br>
+Ex: studies, worries, cries.<br>
+- tradução:<br>
+### Regra 3<br>
+verbos terminados em consoante + y removemos "y" e adicionamos —ies.<br>
 Ex: estudos, preocupações, choros.
