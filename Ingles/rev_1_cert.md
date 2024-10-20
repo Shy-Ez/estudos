@@ -20,22 +20,22 @@ EM:<br>
   REVOLVES(gira)<br>
   AROUND THE(ao redor do)<br>
   SUN(sol).<br>
-- COMMOM SENSE(zsenso comum)<br>
+- COMMOM SENSE(Senso comum)<br>
 EM:<br>
-  FLAMENGO IS(flamengo é)<br>
-  THE BEST(o melhor)<br>
-  TEAM IN THE(time do)<br>
+  FLAMENGO IS(Flamengo é)<br>
+  THE BEST(O melhor)<br>
+  TEAM IN THE(Time do)<br>
   
   WORLD(mundo).<br>
-- PERMANENT STATES(estados permanentes)<br>
+- PERMANENT STATES(Estados permanentes)<br>
 EM:<br>
-  water boils(água ferve)<br>
-  at 100°(a 100°)<br>
-  celsius(celsius).<br>
-- TIMETABLES(horários)<br>
-MY FLIGHT(meu voo)<br>
-LEAVES(sai()dependendo do contesto pode significar outra coisa,Ex:folhas)<br>
-TOMORROW(amanhã)<br>
+  water boils(Água ferve)<br>
+  at 100°(A 100°)<br>
+  celsius(Celsius).<br>
+- TIMETABLES(Horários)<br>
+MY FLIGHT(Meu voo)<br>
+LEAVES(Sai(dependendo do contesto pode significar outra coisa),Ex:folhas)<br>
+TOMORROW(Amanhã)<br>
 AT 9 A.M.(ás 9h)<br>
 # SIMPLE PENSENT -> VERB TO BE<br>
 - affirmative(Afirmativa(o))<br>
