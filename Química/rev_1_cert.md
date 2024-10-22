@@ -113,7 +113,7 @@ grupo 18 ou VIIIA-> gases nobres<br>
 **Obs:** O hidrogenio (H) não e um metal alcalino. As outras familias recebem o nome do 1º elemento da familia.Ex: grupo 14 ou IVA-> familia do carbono.
 ## Classificações dos elementos
 - Metais: são solidos de temperatura ambiente com exceção do mercúrio que é liquido.
-- Ametais: podem ser apresentar nas formas sólidas, líquida ou gasosa.
+- Ametais: podem ser apresentar nas formas sólidas, líquida ou gasosa. quando estão em temperatura ambiente.
 - Gases nobres: nas condições ambientes apresentam-se no estado gasoso e sua principal caracteristica quimica é a grande estabilidade.
 - Hidrogênio: e um atipico, pois possui a propriedade de se combinar com metais e ametais. Nas condições ambientes é um gás extremamente inflamável.
 
