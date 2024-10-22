@@ -1,4 +1,3 @@
-Aqui está o texto revisado sem símbolos matemáticos ou linguagem técnica complicada:  
 
 ---
 
@@ -60,4 +59,4 @@ A expressão geral é essencial para entender como ângulos que parecem diferent
 
 ---
 
-Esse texto pode ser enviado diretamente para seus amigos. Se precisar de mais alguma alteração, é só avisar!
+
