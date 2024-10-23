@@ -24,7 +24,7 @@ são aquelas a partir das quais e possivel determinar a composição de um mater
 A densidade e uma relação matematica, expressa pela formula:<br>
 D = Massa/volume<br>
 ### Substância composta
-Formata por atómos de diferentes elementos químicos.<br>
+Formada por atómos de diferentes elementos químicos.<br>
 ex: H2o, Co2, C2h12o6,...<br>
 ### Mistura
 Moléculas de frente em um mesmo espaço.<br>
