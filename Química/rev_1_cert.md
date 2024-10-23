@@ -27,7 +27,7 @@ D = Massa/volume<br>
 Formada por atómos de diferentes elementos químicos.<br>
 ex: H2o, Co2, C2h12o6,...<br>
 ### Mistura
-Moléculas de frente em um mesmo espaço.<br>
+Moléculas diferentes em um mesmo espaço.<br>
 -> dividisse em: mistura homogenia e mistura heterogenea.<br>
 - Mistura homogênea -> Apresenta uma unica fase<br> Ex: água + ácool
 - Mistura heterogenea -> Apresenta mais de uma fase<br> Ex: água + Óleo
