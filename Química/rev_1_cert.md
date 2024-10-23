@@ -21,7 +21,7 @@ são aquelas a partir das quais e possivel determinar a composição de um mater
 **temperatura(ou ponto) de ebulição(TE ou PE)** <br>
 é a temperatura na qual ocorre a passagem do estado líquido para o gasoso.<br>
 **Densidade(D ou p)** <br>
-A densidade e uma relação matematica, expressa pela formula:<br>
+A densidade e uma relação matematica, de massa e volume. expressa pela formula:<br>
 D = Massa/volume<br>
 ### Substância composta
 Formada por atómos de diferentes elementos químicos.<br>
