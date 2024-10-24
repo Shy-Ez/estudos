@@ -117,9 +117,9 @@ Isso resulta em:
      180 menos 105 = 75°.
 
 - **Valores**:
-  - Seno de 75° é aproximadamente 0,9659.  
-  - Cosseno de 75° é aproximadamente 0,2588.  
-  - Tangente de 75° é aproximadamente 3,732.
+  - Seno de 75° é aproximadamente 0,9659. Ou seno de 30° + seno de 45°.
+  - Cosseno de 75° é aproximadamente 0,2588. Ou cosseno de 30° + cosseno de 45°.
+  - Tangente de 75° é aproximadamente 3,732. Ou tangente de 30° + tangente de 45°.
 
 ---
 
