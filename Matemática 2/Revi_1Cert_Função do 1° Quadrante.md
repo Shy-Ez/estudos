@@ -111,15 +111,15 @@ Isso resulta em:
 **Enunciado**: Um relógio marca 10 horas e 30 minutos. Calcule o seno, cosseno e tangente do menor ângulo formado pelos ponteiros.
 
 - **Passo a passo**:
-  1. Cada hora equivale a 30 graus.  
-  2. Às 10 horas e 30 minutos, o ponteiro das horas está a 105 graus e o dos minutos a 180 graus.  
+  1. Cada hora equivale a 30°.  
+  2. Às 10 horas e 30 minutos, o ponteiro das horas está a 105° e o dos minutos a 180°.  
   3. O menor ângulo entre eles é:  
-     180 menos 105 = 75 graus.
+     180 menos 105 = 75°.
 
 - **Valores**:
-  - Seno de 75 graus é aproximadamente 0,9659.  
-  - Cosseno de 75 graus é aproximadamente 0,2588.  
-  - Tangente de 75 graus é aproximadamente 3,732.
+  - Seno de 75° é aproximadamente 0,9659.  
+  - Cosseno de 75° é aproximadamente 0,2588.  
+  - Tangente de 75° é aproximadamente 3,732.
 
 ---
 
