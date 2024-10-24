@@ -44,8 +44,37 @@ São aglomerados sólidos de um ou mais *minerais*.<br>
 - Formação de falhas tectônicas
 - terremotos e vulcões
 
-# EM breve: Agentes modeladores e Clima.
-  
+## Agentes modeladores do relevo
+ O relevo é o conjunto das diferentes formas topográficas da superficie terrestre.<br>
+ **-> Agentes Endógenos**<br>
+ São as forças do interior da terra que criam grandes formas de relevo e são responsáveis pelo tectonismo, pelos movimento *orogéneticos* e *epirogéneticos*.<br>
+ **-> Agentes exógenos**<br>
+ São as forças da natureza que agem sob a superficie da crosta modelando o relevo.<br>
+ **Intenperismo:** É o processo de desagregação dos minerais das rochas. Pode ser: *quimico*, *fisico* e *biologico*.<br>
+ **Erosão:** E o processo de desgaste mecânico das rochas pela atuação de forças naturais. Ocorre a remoção de sedimentos que são depositados em outras áreas podem ser:<br>
+- **Pluvial:** Chuvas
+- **Fluvial:** Rios
+- **Eólica:** Ventos
+- **Marinha:** Ondas e marés
+- **Glacial:** Avalanches, de gelo e  fratura de blocos de gelo.
+## Clima
+ É diferente do tempo: o Tempo é a condição momentânea da atmosfera, já o *Clima* é o padrão de comportamento atmosferica em dada local e que é determinado pelos *fatores climaticos*.<br>
+**-> Elementos do clima**<br>
+- temperatura atmosférica
+- unidade do ar
+- pressão atmosferica
+- ventos<br>
+**-> Fatores climáticos**<br>
+ São fatores naturais que atuam combinadamente sobre os locais para determinar os seus tipos climáticos.<br>
+- latitude
+- altitude
+- massa de ar
+- correntes marítimas
+- albedo
+- relevo
+- continente e maritimidade
+- vegetação
+
   
 
   
