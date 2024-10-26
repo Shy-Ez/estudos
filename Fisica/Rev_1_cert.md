@@ -47,13 +47,15 @@ Calor Sensível:È quando tem variação de temperatura.<br>
 Calor Latente:È uma mudança de temperatura no estado fisico.<br>
 ## Unidades de calor
 [Q] = Cal(caloria)<br>
-_Fórmula_<br>
+<br>
+_Fórmula_ <br>
 __Q = m * C * v.t.__(não tenho os simbolos pra colocar.)<br>
 c = calor específico(Propriedade da Substância)<br>
 v.t = variação de temperatura(°c).<br>
 Quanto maior o calor específico, menor a variação de temperatura.<br>
 Quanto menor o calor específico, maior a variação de temperatura.<br>
-Ex: Àgua<br>
+<br>
+Ex : Àgua<br>
 1cal = 1g * C água * 1°c<br>
 C água = 1cal / 1g * 1°c = 1,0 cal/g°c<br>
 <br>
@@ -64,6 +66,7 @@ Q = calor(cal)<br>
 m = massa(g)<br>
 c = calor sensível<br>
 v.t. = variação de temperatura<br>
+<br>
 Ex 1:<br>
 Um objeto está á 20°c e tem a massa de 200g, e recebe 1200cal, logo o mesmo passa de 20°c para 320°c.<br>
 o calor sensível desse objeto?<br>
@@ -75,11 +78,13 @@ c = 0,02Cal/g°c<br>
 ### Capacidade Térmica
 _formula 1 e 2_<br>
 __1: Ç = Q/v.t. e 2: Q = Ç v.t. (Que na pratica é Ç = m * c)__<br>
+<br>
 seguindo os mesmos valores do Ex 1.<br>
 formula 1:<br>
 Ç = Q / v.t.<br>
 Ç = 1200cal/300°c<br>
 Ç = 4 cal/°c<br>
+<br>
 formla 2:<br>
 Ç = m * c <br>
 Ç = 200g * 0.02 cal/g°c<br>
@@ -90,19 +95,23 @@ Liquido para solido = solidificação<br>
 Liquido para vapor/gás = vaporização(A vaporização e pode ser de 3 tipos: Ebulição,calefação e evaporação.)<br>
 vapor/gás para liquido = condensação<br>
 Solido para vapor/gás = sublimação<br>
+<br>
 _formula_ <br>
 __Q = m * L__ <br>
 L = calor latente(característica da substância)<br>
-Ex: Água <br>
+<br>
+Ex 1: Água <br>
 L fusão = 80 cal/g<br>
 L vapor = 540 cal/g<br>
-Outro Ex 2 : Um cubo solido tem massa de 800g e recabe 2400 kcal(Mil cal) e passa para  liquido.<BR>
+<br>
+Ex 2 : Um cubo solido tem massa de 800g e recabe 2400 kcal(Mil cal) e passa para  liquido.<BR>
 Qual o  L fusão dele?<br>
 Q =  m * L<br>
 240.000 = 800g * L<br>
 L = 240.000/800 | cal/g<br>
 L = 3000 cal/g<br>
 OBS: Normalmente a questão vai le dar duas grandezas para responder as quetão.<br>
+<br>
 EX 3:<br>
 Um cubo de gelo tem massa de 100g de água e temperatura -20° para 120°, mediante as questões respondidas<br>
 valores da água são<br>
