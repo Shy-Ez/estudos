@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notas</title>
+</head>
+<body>
+    <label for="nota1">Qual sua primeira nota?:</label>
+    <input type="number"  id="nota1">
+
+    <label for="nota2">Qual sua segunda nota?:</label>
+    <input type="number" id="nota2">
+
+    <button onclick="calcular()">Calcular</button>
+    <p id="print_notas"></p>
+<script>
+    function calcular() {
+        let paragrafo = document.getElementById('print_notas');
+        x = parseInt(document.getElementById('nota1').value);
+        y = parseInt(document.getElementById('nota2').value);
+
+        calcular_media = (x + y / 2)
+
+        if (calcular_media = 10) {
+                paragrafo.innerHTML = "Aprovado com Distinção";
+        }
+        else if (calcular_media >= 7){
+                paragrafo.innerHTML = "Aprovado"
+        }
+        else {
+            paragrafo.innerHTML = "Reprovado";
+        }
+    }
+
+</script>
+
+</body>
+</html>
