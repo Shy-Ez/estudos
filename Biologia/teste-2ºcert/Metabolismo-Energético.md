@@ -23,13 +23,5 @@ energia => ligações quimicas (energia está armazenada em ligações quimicas)
 **NAD+, NADP_ e FAD**
 - Reações químicas => liberam H+ e elétrons => capturados pelos transportadores de H+
 
-### Fermentação x Respiração celular
-  (A) Fermentação
-- Quebra incompleta da glicose
-- Gera substâncias simples
-- Saldo = 2ATP <br>
-(B) Respiração celular
-- quebra completa da glicose
-- gera Co² e H²O
-- Saldo ~=(aproximadamente) 32ATP
+
   
