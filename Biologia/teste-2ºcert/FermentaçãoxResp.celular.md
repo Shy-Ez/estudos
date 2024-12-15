@@ -11,7 +11,7 @@
 ### Glicóise
 - Etapa comum à fermentação e respiração
 - No citoplasma
-**Glicose(6c)-(1)->2ATP-(2)->2NADH+ H+-> Ácido pirúvico(3c)
+**Glicose(6c)-(1)->2ATP-(2)->2NADH+ H+-> Ácido pirúvico(3c)**
 <br>
 
 
