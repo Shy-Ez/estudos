@@ -42,10 +42,7 @@ RER -Proteinas-> C6 (1)-> lisossomos (2)-> viscículas de secreção
 
 ### (8) Mitocôndrias
 - Respiração celular = quebra completa da glicose na presença de 0², gerando energia. <br>
-(*obs: Mitocôndrias*
-- *autoduplicação*
-- *de origem materna*)
-
+(*obs: Mitocôndrias*  -   *autoduplicação*  -   *de origem materna*)<br>
 ### (9) Plastos = algas e plantas
 (A) Cloroplastos
 - Clorofila - verde((*Luz*)foto|ssíntese(*Produção*)) <br>
