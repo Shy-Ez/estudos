@@ -1,0 +1,92 @@
+from datetime import datetime
+import re
+import sys
+
+# Função para ler um valor não vazio
+def ler_nome_nao_vazio(nome_variavel):
+    valor_lido = input(f'Entre com o {nome_variavel} do usuário: ')
+    while valor_lido == '':
+        print(f'O {nome_variavel} não pode ser vazio!')
+        valor_lido = input(f'Entre com o {nome_variavel} do usuário: ')
+    return valor_lido
+
+# Função para verificar se a data é válida
+def verifica_data_valida(data_texto):
+    try:
+        data_valida = datetime.strptime(data_texto, "%d/%m/%Y")
+        return True
+    except:
+        return False
+
+# Função para ler uma data válida
+def ler_data_valida():
+    dataNascimentoString = input('Entre com a data de nascimento: ')
+    while not verifica_data_valida(dataNascimentoString):
+        print('Data inválida!')
+        dataNascimentoString = input('Entre com a data de nascimento: ')
+    dataNascimento = datetime.strptime(dataNascimentoString, "%d/%m/%Y")
+    return dataNascimento
+
+# Função para verificar se o email é válido
+def verifica_email_valido(email):
+    regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    return re.match(regex, email) is not None
+
+# Função para ler um email válido
+def ler_email_valido():
+    email = input('Entre com o email do usuário: ')
+    while not verifica_email_valido(email):
+        print('Email inválido!')
+        email = input('Entre com o email do usuário: ')
+    return email
+
+# Função para ler os dados do usuário
+def ler_dados():
+    nome = ler_nome_nao_vazio('nome')
+    email = ler_email_valido()
+    senha = ler_nome_nao_vazio('senha')
+    dataNascimento = ler_data_valida()
+    
+    BD = {
+        'nome': nome,
+        'email': email,
+        'senha': senha,
+        'dataNascimento': dataNascimento,
+    }
+    return BD
+
+# Função para imprimir os dados do usuário
+def imprimir_dados(BD):
+    print(f"Nome:\t{BD['nome']}")
+    print(f"Email:\t{BD['email']}")
+    print(f"Senha:\t{BD['senha']}")
+    print(f"Data:\t{BD['dataNascimento'].strftime('%d/%m/%Y')}")
+
+# Função para excluir um cadastro
+def excluir_cadastro(BD):
+    if 'nome' in BD:
+        del BD
+        print("Cadastro excluído com sucesso.")
+    else:
+        print(f"O cadastro não foi encontrado.")
+
+# Função de menu
+def menu():
+    while True:
+        pergunta = input("O que deseja fazer? (cadastro/excluir/contas/nada): ").lower()
+        if pergunta == "cadastro":
+            dados = ler_dados()
+            imprimir_dados(dados)
+        elif pergunta == "excluir":
+            excluir_cadastro(dados)
+        elif pergunta == "contas":
+            imprimir_dados(dados)
+        elif pergunta == "nada":
+            sys.exit("Encerrando o programa.")
+        else:
+            print("Opção inválida. Tente novamente.")
+
+# Iniciar o menu e ler os dados do usuário
+
+menu()
+dados_do_usuario = ler_dados()
