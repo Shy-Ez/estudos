@@ -2,6 +2,36 @@ from datetime import datetime
 import re
 import sys
 
+# Inicializar lista para armazenar cadastros
+cadastros = []
+
+# Função de menu. A função que tem todas as outras.
+def menu():
+     while True:
+        pergunta = input("O que deseja fazer? (cadastro/excluir/contas/sair): ").lower()
+        if pergunta == "cadastro":
+            dados = ler_dados()
+            cadastros.append(dados) # Armazena os dados na lista de cadastros
+            imprimir_dados(dados)   # A conta será criada e os dados serão impressos.
+
+        elif pergunta == "excluir":
+            if cadastros:
+                excluir_cadastro(cadastros.pop(0)) # excluíra a conta mais recente criada.
+            else:
+                print("Nenhum cadastro disponível para excluir.")
+
+        elif pergunta == "contas":
+            if cadastros:
+                for dados in cadastros:
+                    imprimir_dados(dados) # Vê contas criadas.
+            else:
+                print("Nenhuma conta criada.")
+
+        elif pergunta == "sair":
+            sys.exit("Encerrando o programa.") # Encerra o programa de vez.
+        else:
+            print("Opção inválida. Tente novamente.")
+            
 # Função para ler um valor não vazio.
 def ler_nome_nao_vazio(nome_variavel):
     valor_lido = input(f'Entre com o {nome_variavel} do usuário: ')
@@ -46,7 +76,7 @@ def ler_dados():
     email = ler_email_valido()
     senha = ler_nome_nao_vazio('senha')
     dataNascimento = ler_data_valida()
-# dicionário
+    # dicionário
     BD = {
         'nome': nome,
         'email': email,
@@ -61,36 +91,14 @@ def imprimir_dados(BD):
     print(f"Email:\t{BD['email']}")
     print(f"Senha:\t{BD['senha']}")
     print(f"Data:\t{BD['dataNascimento'].strftime('%d/%m/%Y')}")
-    
 
 # Função para excluir um cadastro.
 def excluir_cadastro(BD):
-    tirar = ['nome','email','senha','dataNascimento']
-    for tira in tirar:
-        if tira in BD:
-            del BD[tira]
+    chaves = ['nome', 'email', 'senha', 'dataNascimento']
+    for chave in chaves:
+        if chave in BD:
+            del BD[chave]
     print("Cadastro excluído com sucesso.")
-
-# Função de menu. A função que tem todas as outras.
-def menu():
-    while True:
-        pergunta = input("O que deseja fazer? (cadastro/excluir/contas/nada): ").lower()
-        if pergunta == "cadastro":
-            dados = ler_dados()
-            imprimir_dados(dados)#A conta será criada e os dados  seram imprimidos.
-
-        elif pergunta == "excluir":
-            excluir_cadastro(dados)#excluíra a conta criada.
-           
-        elif pergunta == "contas" :
-            imprimir_dados(dados)#Vê contas criada.
-
-        elif pergunta == "nada":
-            sys.exit("Encerrando o programa.")#Encerra o programa de vez.
-        else:
-            print("Opção inválida. Tente novamente.")
-
-            
 
 # Iniciar o menu e ler os dados da conta.
 menu()
