@@ -36,7 +36,7 @@ def salvar_cadastros():
 def menu():  
     carregar_cadastros()  # Carrega os cadastros ao iniciar  
     while True:  
-        opcao = input("\nO que deseja fazer? (cadastro/excluir/alterar/contas/sair): ").strip().lower()  
+        opcao = input("\nBem-vindo ao sistema de casdastro do google\nO que deseja fazer? (cadastro/excluir/alterar/contas/sair): ").strip().lower()  
         
         if opcao == "cadastro":  
             dados = ler_dados()  
