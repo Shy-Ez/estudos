@@ -18,7 +18,8 @@ def carregar_cadastros():
             cadastros = json.load(file)  
             # Converter datas de string para datetime  
             for dados in cadastros:  
-                dados["dataNascimento"] = datetime.strptime(dados["dataNascimento"], "%d/%m/%Y")  
+                if isinstance(dados["dataNascimento"], str):  
+                    dados["dataNascimento"] = datetime.strptime(dados["dataNascimento"], "%d/%m/%Y")  
     except (FileNotFoundError, json.JSONDecodeError):  
         cadastros = []  # Se o arquivo não existir ou estiver vazio, inicia uma lista vazia  
 
@@ -26,9 +27,11 @@ def carregar_cadastros():
 def salvar_cadastros():  
     with open(ARQUIVO_DADOS, "w", encoding="utf-8") as file:  
         # Converter datas de datetime para string  
-        for dados in cadastros:  
-            dados["dataNascimento"] = dados["dataNascimento"].strftime("%d/%m/%Y")  
-        json.dump(cadastros, file, indent=4, ensure_ascii=False)  
+        cadastros_serializaveis = [
+            {**dados, "dataNascimento": dados["dataNascimento"].strftime("%d/%m/%Y")}
+            for dados in cadastros
+        ]
+        json.dump(cadastros_serializaveis, file, indent=4, ensure_ascii=False)  
 
 def menu():  
     carregar_cadastros()  # Carrega os cadastros ao iniciar  
@@ -65,11 +68,11 @@ def menu():
         else:  
             print("\nOpção inválida. Tente novamente.")  
 
-# Funções auxiliares (sem mudanças)
+# Funções auxiliares
 def ler_nome_nao_vazio(campo):  
     valor = input(f'Entre com o {campo}: ').strip()  
     while not valor:  
-        print(f'O {campo} não pode ser vazio!")  
+        print(f'O {campo} não pode ser vazio!')  
         valor = input(f'Entre com o {campo}: ').strip()  
     return valor  
 
@@ -109,11 +112,66 @@ def imprimir_dados(BD):
     print(f"\nNome: {BD['nome']}")  
     print(f"Email: {BD['email']}")  
     print(f"Senha: {'*' * len(BD['senha'])}")  
-    print(f"Data de Nascimento: {BD['dataNascimento'].strftime('%d/%m/%Y')}")  
+
+    # Verifica se a data está como string e converte para datetime
+    if isinstance(BD['dataNascimento'], str):  
+        data_nascimento = datetime.strptime(BD['dataNascimento'], "%d/%m/%Y")  
+    else:  
+        data_nascimento = BD['dataNascimento']
+
+    print(f"Data de Nascimento: {data_nascimento.strftime('%d/%m/%Y')}")  
 
 def excluir_cadastro():  
     if not cadastros:  
         print("\nNenhum cadastro disponível para excluir.")  
         return  
 
-    nome = input("Digite o nome da conta que deseja excluir
+    nome = input("Digite o nome da conta que deseja excluir: ").strip()  
+    for i, dados in enumerate(cadastros):  
+        if dados["nome"].lower() == nome.lower():  
+            del cadastros[i]  
+            print("\nCadastro excluído com sucesso.")  
+            return  
+    print("\nCadastro não encontrado.")  
+
+def alterar_cadastro():  
+    if not cadastros:  
+        print("\nNenhum cadastro disponível para alterar.")  
+        return  
+
+    nome = input("Digite o nome da conta que deseja alterar: ").strip()  
+    for dados in cadastros:  
+        if dados["nome"].lower() == nome.lower():  
+            while True:  
+                print("\nO que deseja alterar? (nome/email/senha/data/sair)")  
+                campo = input("Escolha uma opção: ").strip().lower()  
+
+                if campo == "nome":  
+                    dados["nome"] = ler_nome_nao_vazio("novo nome")  
+                    print("\nNome alterado com sucesso!")  
+
+                elif campo == "email":  
+                    dados["email"] = ler_email_valido()  
+                    print("\nEmail alterado com sucesso!")  
+
+                elif campo == "senha":  
+                    dados["senha"] = getpass.getpass("Digite a nova senha: ")  
+                    print("\nSenha alterada com sucesso!")  
+
+                elif campo == "data":  
+                    dados["dataNascimento"] = ler_data_valida()  
+                    print("\nData de nascimento alterada com sucesso!")  
+
+                elif campo == "sair":  
+                    print("\nAlterações finalizadas.")  
+                    return  
+
+                else:  
+                    print("\nOpção inválida, tente novamente.")  
+
+            return  
+
+    print("\nCadastro não encontrado.")  
+
+# Iniciar o menu  
+menu()
