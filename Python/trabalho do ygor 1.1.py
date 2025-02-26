@@ -2,7 +2,6 @@ import json
 from datetime import datetime  
 import re  
 import sys  
-import getpass  
 
 # Nome do arquivo JSON
 ARQUIVO_DADOS = "cadastros.json"
@@ -36,7 +35,7 @@ def salvar_cadastros():
 def menu():  
     carregar_cadastros()  # Carrega os cadastros ao iniciar  
     while True:  
-        opcao = input("\nBem-vindo ao sistema de casdastro do google\nO que deseja fazer? (cadastro/excluir/alterar/contas/sair): ").strip().lower()  
+        opcao = input("\nBem-vindo ao sistema de cadastro do Google\nO que deseja fazer? (cadastro/excluir/alterar/contas/sair): ").strip().lower()  
         
         if opcao == "cadastro":  
             dados = ler_dados()  
@@ -78,7 +77,10 @@ def ler_nome_nao_vazio(campo):
 
 def verifica_data_valida(data_texto):  
     try:  
-        datetime.strptime(data_texto, "%d/%m/%Y")  
+        data = datetime.strptime(data_texto, "%d/%m/%Y")
+        # Verifica se a data não é futura
+        if data > datetime.today():
+            return False
         return True  
     except ValueError:  
         return False  
@@ -101,17 +103,21 @@ def ler_email_valido():
         email = input('Entre com o email: ').strip()  
     return email  
 
+def ler_senha_visivel():  
+    senha = input('Entre com a senha: ').strip()  
+    return senha  
+
 def ler_dados():  
     nome = ler_nome_nao_vazio('nome')  
     email = ler_email_valido()  
-    senha = getpass.getpass('Entre com a senha: ')  
+    senha = ler_senha_visivel()  
     data_nascimento = ler_data_valida()  
     return {'nome': nome, 'email': email, 'senha': senha, 'dataNascimento': data_nascimento}  
 
 def imprimir_dados(BD):  
     print(f"\nNome: {BD['nome']}")  
     print(f"Email: {BD['email']}")  
-    print(f"Senha: {'*' * len(BD['senha'])}")  
+    print(f"Senha: {len(BD['senha']) * '*'}")  # Exibe a senha com asteriscos
 
     # Verifica se a data está como string e converte para datetime
     if isinstance(BD['dataNascimento'], str):  
@@ -129,6 +135,7 @@ def excluir_cadastro():
     nome = input("Digite o nome da conta que deseja excluir: ").strip()  
     for i, dados in enumerate(cadastros):  
         if dados["nome"].lower() == nome.lower():  
+            # Remove o cadastro encontrado
             del cadastros[i]  
             print("\nCadastro excluído com sucesso.")  
             return  
@@ -155,7 +162,7 @@ def alterar_cadastro():
                     print("\nEmail alterado com sucesso!")  
 
                 elif campo == "senha":  
-                    dados["senha"] = getpass.getpass("Digite a nova senha: ")  
+                    dados["senha"] = ler_senha_visivel()  
                     print("\nSenha alterada com sucesso!")  
 
                 elif campo == "data":  
