@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freedom - Player de Música</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+
+    <div id="main-container">
+        <header>
+            <button id="config-btn" onclick="toggleConfig()">⚙ Configurações</button>
+            <button id="profile-btn" onclick="toggleProfile()">👤 Perfil</button>
+            <button id="clients-btn" onclick="toggleClients()">📋 Clientes Cadastrados</button>
+        </header>
+        <h1 class="theme-text">Bem-vindo ao Freedom</h1>
+
+        <div id="music-list">
+            <input type="text" id="music-link" placeholder="Cole o link do YouTube">
+            <button onclick="convertMusic()">Adicionar Música</button>
+        </div>
+    </div>
+
+    <div id="clients-container" class="hidden">
+        <button class="close-btn" onclick="toggleClients()">X</button>
+        <h2 class="theme-text">Clientes Cadastrados</h2>
+        
+        
+        
+        <fieldset>
+        <table>
+            <thead>
+                <tr>
+                    <th >Nome</th>
+                    <th >Email</th>
+                    <th >Ações</th>
+                </tr>
+            </thead>
+            
+            <tbody id="user-table">
+                <!-- Usuários serão carregados aqui via JavaScript -->
+            </tbody>
+        </table>
+        </fieldset>
+    </div>
+
+    <div id="edit-user-container" class="hidden">
+        <button class="close-btn" onclick="closeEditUser()">X</button>
+        <h2 class="theme-text">Editar Usuário</h2>
+        <input type="text" id="edit-username" placeholder="Nome">
+        <input type="email" id="edit-email" placeholder="Email">
+        <input type="date" id="edit-birthdate">
+        <input type="password" id="edit-password" placeholder="Senha">
+        <input type="file" id="edit-profile-pic" accept="image/*">
+        <button onclick="saveUserEdit()">Salvar Alterações</button>
+    </div>
+
+  <div id="config-container" class="hidden">
+    <button class="close-btn" onclick="toggleConfig()">X</button>
+    <h2 class="theme-text">Configurações</h2>
+    <button class="botao" onclick="trocarTema()">Mudar Tema</button>
+    <button onclick="logout()">Sair da Conta</button> <!-- ✅ Botão de Sair nas Configurações -->
+</div>
+    <div id="profile-container" class="hidden">
+        <button class="close-btn" onclick="toggleProfile()">X</button>
+        <h2 class="theme-text">Perfil</h2>
+        <p id="profile-name"></p>
+        <p id="profile-email"></p>
+        <p id="profile-birthdate"></p>
+        <img id="profile-picture" src="" width="80">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
