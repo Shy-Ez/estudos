@@ -68,6 +68,24 @@ function closeContainer(containerId) {
     document.getElementById(containerId).classList.add("hidden");
 }
 
+// ✅ Verificar data de nascimento válida
+function validarDataNascimento(dataNascimento) {
+    let hoje = new Date();
+    let dataNasc = new Date(dataNascimento);
+    let idade = hoje.getFullYear() - dataNasc.getFullYear();
+    
+    if (dataNasc > hoje) {
+        alert("A data de nascimento não pode ser no futuro.");
+        return false;
+    }
+    
+    if (idade > 120) {
+        alert("A data de nascimento não pode ser superior a 120 anos no passado.");
+        return false;
+    }
+    								return true;
+}
+
 // ✅ Cadastrar usuários corretamente
 function cadastrar() {
     let username = document.getElementById("username").value.trim();
@@ -76,6 +94,8 @@ function cadastrar() {
     let password = document.getElementById("password").value.trim();
     let file = document.getElementById("file").files[0];
 
+    if (!validarDataNascimento(birthdate)) return;
+    
     if (!email.includes("@") || !email.includes(".com")) {
         alert("Email inválido!");
         return;
@@ -85,6 +105,12 @@ function cadastrar() {
         alert("A senha deve conter pelo menos uma letra maiúscula!");
         return;
     }
+    
+    if (!file) {
+        alert("Por favor, selecione uma foto para o perfil.");
+        return;
+    }
+
 
     let reader = new FileReader();
     reader.onload = function (event) {
@@ -235,4 +261,4 @@ function deleteUser(index) {
 function toggleClients() {
     document.getElementById("clients-container").classList.toggle("hidden");
     loadUsers();
-          }
+}
