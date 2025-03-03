@@ -68,12 +68,25 @@ function closeContainer(containerId) {
     document.getElementById(containerId).classList.add("hidden");
 }
 
-// ✅ Verificar data de nascimento válida
+// ✅ Verificar data de nascimento válida (impede datas inexistentes, futuras e muito antigas)
 function validarDataNascimento(dataNascimento) {
     let hoje = new Date();
     let dataNasc = new Date(dataNascimento);
     let idade = hoje.getFullYear() - dataNasc.getFullYear();
+
+    // Verifica se a data inserida é válida (exemplo: impede 30/02)
+    let [ano, mes, dia] = dataNascimento.split("-");
+    let dataFormatada = new Date(ano, mes - 1, dia);
     
+    if (
+        dataFormatada.getFullYear() != ano ||
+        dataFormatada.getMonth() + 1 != mes ||
+        dataFormatada.getDate() != dia
+    ) {
+        alert("Data inválida! Por favor, insira uma data de nascimento real.");
+        return false;
+    }
+
     if (dataNasc > hoje) {
         alert("A data de nascimento não pode ser no futuro.");
         return false;
@@ -83,7 +96,13 @@ function validarDataNascimento(dataNascimento) {
         alert("A data de nascimento não pode ser superior a 120 anos no passado.");
         return false;
     }
-    								return true;
+
+    if (dataNasc.getFullYear() < 1900) {
+        alert("A data de nascimento não pode ser antes de 1900.");
+        return false;
+    }
+
+    return true;
 }
 
 // ✅ Cadastrar usuários corretamente
