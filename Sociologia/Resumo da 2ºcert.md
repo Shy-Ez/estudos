@@ -1,4 +1,4 @@
-#*Trabalho em Marx e suas Implicações no Neoliberalismo e na Indústria Cultural*
+*Trabalho em Marx e suas Implicações no Neoliberalismo e na Indústria Cultural*
 
 ### 1. Trabalho em Marx: Conceitos Fundamentais
 - *Alienação*: O trabalhador é alienado do produto, do processo de produção, de sua essência humana e das relações sociais.<br>
