@@ -25,3 +25,5 @@ else
 {
     console.log("Está fora")
 }
+
+// uma dica para não esquecer: rodar no playground TypeScript do google.
