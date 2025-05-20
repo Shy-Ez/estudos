@@ -1,3 +1,4 @@
+// !!!Em progresso!!!
 // Criar a classe encapsulada gato ou cachorro. ter ao menos 3 atributos, um construtor e metodos do tipo get e set, se necessario. lembrar de colocar atributos e metodos como public ou private.
 class dog 
 // atributos privados
