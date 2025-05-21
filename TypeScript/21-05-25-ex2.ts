@@ -1,0 +1,1 @@
+// Criar a classe ListaDePontos, a qual encapsula uma lista de Ponto3D. Assim, a lista deve ser um atributo private. Não precisa de construtor, já que podemos inicializar a lista vazia em sua definiçã
