@@ -1,6 +1,15 @@
-// Criar a classe ListaDePontos, a qual encapsula uma lista de Ponto3D. Assim, a lista deve ser um atributo private. Não precisa de construtor, já que podemos inicializar a lista vazia em sua definição
+//Recrie a classe encapsulada Pessoa, com atributos privados nome e cpf, com construtor para iniciá-los. A classe deve ter getNome, setNome e getCpf (cpf não deve ser alterado).
 
-class ListaDePontos 
-{
-  class 
+class pessoa {
+  private nome: string;
+  private cpf: number;
+
+  constructor(nome: string, cpf: number){
+    this.nome = nome
+    this.cpf = cpf
+  }
+  getnome(): string
+  {
+    return this.nome
+  }
 }
