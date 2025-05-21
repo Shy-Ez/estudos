@@ -19,3 +19,12 @@ class ListaDePontos
 {
   private ldp: Ponto3D[] = []; //array (lista de pontos)
 }
+// Método que insere um ponto no final da lista
+InserePonto(ponto : Ponto3D): void { this.ldp.push(ponto); }
+// Método que retorna o ponto no índice especificado
+getPonto(i: number): Ponto3D | undefined {
+  if(i >=0 %% i< this.ldp.lenght){
+    return this.ldp[i]
+  }
+  return undefined;  // Ou poderia lançar um erro se preferir
+}
