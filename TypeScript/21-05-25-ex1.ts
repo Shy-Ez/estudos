@@ -2,7 +2,7 @@
 // Criar a classe ListaDePontos, a qual encapsula uma lista de Ponto3D. Assim, a lista deve ser um atributo private. Não precisa de construtor, já que podemos inicializar a lista vazia em sua definição
 // Criar método getPonto. O método tem como argumento o índice i do elemento a ser retornado, e retorna o i-ésimo ponto da lista. Crie também o método inserePonto. Ele recebe um novo ponto como argumento, e insere no final da lista.
 //Crie um objeto da classe, instanciando-o, para testar a novo tipo lista. Insira 5 pontos.
-class Ponto3D 
+class ponto3D 
 {
   x: number;
   y: number;
@@ -16,18 +16,30 @@ class Ponto3D
   }
 }
 
-class ListaDePontos 
+class listaDePontos
 {
-  private ldp: Ponto3D[] = []; //array (lista de pontos)
-  
-  public getPonto(i: number)
-  {
-    return this.ldp[i];
-  }
+  private lt: ponto3D[] = []; //array (lista de pontos)
 
-  public inserePonto(ponto: Ponto3D)
+  Ponto(i:number)
   {
-    this.ldp.push(ponto);
+    return this.lt[i]
   }
+  inserePonto(NovoPonto: ponto3D)
+  {
+     this.lt.push(NovoPonto);
+  }
+  
 }
+const ponto = new listaDePontos();
+
+ponto.inserePonto(new ponto3D(2,4,8));
+ponto.inserePonto(new ponto3D(3,3,8));
+ponto.inserePonto(new ponto3D(2,4,9));
+ponto.inserePonto(new ponto3D(2,5,8));
+ponto.inserePonto(new ponto3D(1,4,8));
+
+console.log(ponto)
+
+
+
 
