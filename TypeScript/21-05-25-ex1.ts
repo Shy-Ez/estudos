@@ -41,5 +41,51 @@ ponto.inserePonto(new ponto3D(1,4,8));
 console.log(ponto)
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+  // 5) Recrie a classe encapsulada Pessoa, com atributos privados nome e cpf, com construtor para iniciá-los. A classe deve ter getNome, setNome e getCpf (cpf não deve ser alterado).
+  // 6) Crie a classe encapsulada ListaPessoa, da mesma maneira que a lista de pontos.
+  // 7) Instancie a lista e insira 5 pessoas.
+  // 5/6/7) Aqui
+  
+  class pessoa
+{
+    private nome: string;
+    private cpf: number;
 
+    constructor(nome: string, cpf: number)
+    {
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+    getNome()
+    {
+        return this.nome;
+    }
+   
+    getcpf()
+    {
+        return this.cpf;
+    }
 
+}
+class ListaPessoa 
+{
+    private lst: pessoa[] = [];
+
+    Pessoa1(cpf: number)
+    {
+        return this.lst[cpf];
+    }
+    adicionarPessoa(novoNome: pessoa)
+    {
+        this.lst.push(novoNome);
+    }
+}
+
+const lst = new ListaPessoa();
+
+lst.adicionarPessoa(new pessoa("Gabriel", 12376778981));
+lst.adicionarPessoa(new pessoa("Joâo Pedro", 12949678911));
+lst.adicionarPessoa(new pessoa("Guilherme", 12340078912));
+lst.adicionarPessoa(new pessoa("Tomás", 12345678952));
+lst.adicionarPessoa(new pessoa("Erick", 12325648500));
