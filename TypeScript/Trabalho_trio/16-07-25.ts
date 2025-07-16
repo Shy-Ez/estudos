@@ -113,13 +113,20 @@ fax2.atualizaTurno("manhã");
 fax1.limpar();
 fax2.limpar();
 
-// Relatório final
 console.log("\nRelatório");
-console.log(`Gerente: ${gerente.getNome()}, Salário com bônus: R$${gerente.getSalario()}`);
-gerente.getEquipe().forEach(func => {
-    if (func instanceof Faxineiro) {
-        console.log(`Faxineiro: ${func.getNome()}, Turno: ${func.getTurno()}, Salário: R$${func.getSalario()}`);
-    } else {
-        console.log(`Caixa: ${func.getNome()}, Salário: R$${func.getSalario()}`);
+console.log("Gerente: " + gerente.getNome() + ", Salário com bônus: R$" + gerente.getSalario());
+
+const equipe = gerente.getEquipe();
+
+for (let i = 0; i < equipe.length; i++) {
+    const func = equipe[i];
+
+    try {
+        // Se conseguir pegar o turno, é Faxineiro
+        const turno = func.getTurno();
+        console.log("Faxineiro: " + func.getNome() + ", Turno: " + turno + ", Salário: R$" + func.getSalario());
+    } catch (erro) {
+        // Se der erro, é Caixa (porque não tem getTurno)
+        console.log("Caixa: " + func.getNome() + ", Salário: R$" + func.getSalario());
     }
-});
+}
