@@ -1,0 +1,78 @@
+QUESTAO 1
+
+Select Name,
+	COUNT(albumId) as qtd_albums
+from artists inner join albums using (artistId)
+group by artistId;
+
+QUESTAO 2
+
+Select Name,
+	COUNT(albumId) as qtd_albums 
+from artists inner join albums using (artistId)
+group by artistId
+order by qtd_albums
+limit 15;
+
+QUESTAO 3
+
+Select Name,
+	COUNT(albumId) as qtd_albums 
+from artists inner join albums using (artistId)
+group by artistId
+order by qtd_albums DESC
+limit 15 offset 15;
+
+QUESTAO 4
+
+Select Name,
+	COUNT(albumId) as qtd_albums 
+from artists inner join albums using (artistId)
+group by artistId 
+having qtd_albums >= 3
+order by qtd_albums ASC;
+
+QUESTAO 5
+
+Select Nome_Cliente,
+	MAX(invoices) as Máximo,
+	AVG(invoices) as Médio,
+	MIN(invoices) as mínimo
+from customers
+order by Nome_CLiente;
+
+QUESTAO 6
+
+SELECT 
+    artists.Name
+FROM artists
+LEFT JOIN albums ON artists.ArtistId = albums.ArtistId
+WHERE albums.AlbumId IS NULL;
+
+QUESTAO 7
+SELECT 
+    tracks.TrackId,
+    tracks.Name
+FROM tracks
+WHERE tracks.AlbumId = 20;
+
+QUESTAO 8
+
+SELECT 
+    albums.Title,
+    COUNT(tracks.TrackId) AS quantidade_faixas
+FROM albums
+JOIN tracks ON albums.AlbumId = tracks.AlbumId
+GROUP BY albums.AlbumId
+HAVING quantidade_faixas BETWEEN 5 AND 7;
+
+QUESTAO 9
+
+SELECT 
+    tracks.Name AS faixa,
+    albums.Title AS album,
+    artists.Name AS artista
+FROM tracks
+JOIN albums ON tracks.AlbumId = albums.AlbumId
+JOIN artists ON albums.ArtistId = artists.ArtistId
+WHERE artists.Name LIKE 'Chico%';
