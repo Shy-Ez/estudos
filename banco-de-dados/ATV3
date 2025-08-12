@@ -1,0 +1,35 @@
+QUESTAO 6
+
+SELECT 
+    artists.Name
+FROM artists
+LEFT JOIN albums ON artists.ArtistId = albums.ArtistId
+WHERE albums.AlbumId IS NULL;
+
+QUESTAO 7
+SELECT 
+    tracks.TrackId,
+    tracks.Name
+FROM tracks
+WHERE tracks.AlbumId = 20;
+
+QUESTAO 8
+
+SELECT 
+    albums.Title,
+    COUNT(tracks.TrackId) AS quantidade_faixas
+FROM albums
+JOIN tracks ON albums.AlbumId = tracks.AlbumId
+GROUP BY albums.AlbumId
+HAVING quantidade_faixas BETWEEN 5 AND 7;
+
+QUESTAO 9
+
+SELECT 
+    tracks.Name AS faixa,
+    albums.Title AS album,
+    artists.Name AS artista
+FROM tracks
+JOIN albums ON tracks.AlbumId = albums.AlbumId
+JOIN artists ON albums.ArtistId = artists.ArtistId
+WHERE artists.Name LIKE 'Chico%';
