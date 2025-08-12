@@ -64,6 +64,15 @@ inner join albums using(albumId)
 group by AlbumId
 limit 10;
 
+/* Questão 7 */
+select
+      trackId,
+      name,
+      count(trackId) as faixas
+from tracks
+group by 
+		MediaTypeId,
+		GenreI;
 
 
 
