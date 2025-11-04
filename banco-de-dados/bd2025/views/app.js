@@ -21,6 +21,25 @@ db.run(`
     preco REAL NOT NULL
   )
 `);
+// Primeiro, remova a tabela (se necessário)
+db.run("DROP TABLE IF EXISTS categoria", (err) => {
+  if (err) {
+    console.error("Erro ao remover tabela categoria:", err.message);
+  } else {
+    // Depois, crie a tabela
+    db.run(`
+      CREATE TABLE IF NOT EXISTS categoria (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL
+      )
+    `, (err) => {
+      if (err) {
+        console.error("Erro ao criar tabela categoria:", err.message);
+      }
+    });
+  }
+});
+
 
 // Rota para cadastrar produto
 app.post("/api/produtos", (req, res) => {
@@ -75,6 +94,59 @@ app.put("/api/produtos/:id", (req, res) =>
   });
 });
 
+// Rota para cadastrar categoria
+app.post("/api/categoria", (req, res) => {
+  const { nome } = req.body;
+  console.log("chegou", nome);
+  if (!nome) {
+    return res.status(400).json({ error: "Nome é obrigatório" });
+  }
+
+  const stmt = db.prepare("INSERT INTO categoria (nome) VALUES (?)");
+  stmt.run(nome, function (err) {
+    if (err) {
+      return res.status(500).json({ error: "Erro ao inserir uma categoria" });
+    }
+    res.json({ id: this.lastID, nome });
+  });
+  stmt.finalize();
+});
+
+// Rota para listar categoria (com filtro opcional por nome)
+app.get("/api/categoria", (req, res) => {
+  const filtro = req.query.nome ? `%${req.query.nome}%` : "%";
+  db.all(
+    "SELECT * FROM categoria WHERE nome LIKE ? ORDER BY id DESC",
+    [filtro],
+    (err, rows) => {
+      if (err) {
+        return res.status(500).json({ error: "Erro ao consultar uma categoria" });
+      }
+      res.json(rows);
+    }
+  );
+});
+app.delete("/api/categoria/:id", (req, res) =>
+{
+  const {id} = req.params;
+  db.run("DELETE FROM categoria WHERE id = ?", [id], function  (err) {
+    if (err) {
+      return res.status(500).json({ error: "Erro ao deletar uma categoria" });
+    }
+    res.json({ deleted: this.changes > 0 });
+  });
+});
+app.put("/api/categoria/:id", (req, res) =>
+{
+  const {id} = req.params;
+  const {nome} = req.body;
+  db.run("UPDATE categoria SET nome = ?", [nome, id], function  (err) {
+    if (err) {
+      return res.status(500).json({ error: "Erro ao deletar uma categoria" });
+    }
+    res.json({ deleted: this.changes > 0 });
+  });
+});
 // Inicia servidor
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
